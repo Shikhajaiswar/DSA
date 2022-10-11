@@ -1,0 +1,9 @@
+git init     --------->>  to make a Perticular folder git directory
+git status   --------->> to check the status of your directory
+git add --a  --------->> to add the all files in the staging area
+git add <file name>     -------->> to add a perticular file in staging area
+git restore --staged <file name> ------->> to restore some perticular file from staging area
+git commit -m "some message"    -------->> to commit all of your changes
+git push origin main/master     ----------->>to push all of your changes in your local directory
+git log      ---------->> to check all commits, who made those changes and when
+rm -rf .git  ---------->> to delete that directory
