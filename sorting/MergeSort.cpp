@@ -49,6 +49,8 @@ void merge(int a[], int beg, int mid, int end)
         k++;    
     }    
 }    
+
+
   
 void mergeSort(int a[], int beg, int end)  
 {  

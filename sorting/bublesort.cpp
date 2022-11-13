@@ -17,7 +17,7 @@ int main()
     }
 
     int flag;//flag is for if in first iteration you can't find any swaping then  the list is already sorted so come out the loop (only for make easy the task)
-    for(int i=0; i<n-1; i++){  eesw                           // min O(n) 
+    for(int i=0; i<n-1; i++){                             // min O(n) 
         flag=0;                                           // max O(n2)
         for(int j=0; j<n-i-1; j++){
             if(arr[j]>arr[j+1]){
