@@ -1,3 +1,4 @@
+// implementing the graph by adjacency list 
 #include <iostream>
 #include <unordered_map>
 #include <list>
@@ -6,7 +7,7 @@ using namespace std;
 class graph
 {
 public:
-    unordered_map<int, list<int>> mp;
+    unordered_map<int, list<int>> mp;   //making the array and list 
 
     void addEdge(int v, int u, int direction)
     {
@@ -14,7 +15,7 @@ public:
         // direction = 1 then directed graph
 
         // create an edge from u to v
-        mp[u].push_back(v);
+        mp[u].push_back(v);   
 
         if (direction == 0)
         {
@@ -35,6 +36,7 @@ public:
         }
     }
 };
+
 
 int main()
 {
